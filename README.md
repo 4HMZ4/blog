@@ -26,3 +26,14 @@ hosted on Github anyway.
 * Update Github with new code
 * Github generates a docker image
 * Kubernetes cluster uses that image to host the site
+
+
+## When Pulling / Cloning
+``` bash
+git clone --recurse-submodules https://github.com/4hmz4/blog
+```
+
+## Update the theme
+``` bash
+git submodule update --remote --merge
+```
