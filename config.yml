@@ -12,6 +12,12 @@ minify:
     disableXML: true
     minifyOutput: true
 
+outputs:
+    home:
+      - HTML
+      - RSS
+      - JSON
+
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: Blog
@@ -24,8 +30,8 @@ params:
     disableThemeToggle: false
 
     ShowReadingTime: true
-    ShowShareButtons: true
-    ShowPostNavLinks: true
+    #ShowShareButtons: true
+    #ShowPostNavLinks: true
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
     disableSpecial1stPost: false
@@ -33,7 +39,7 @@ params:
     comments: false
     hidemeta: false
     hideSummary: false
-    showtoc: false
+    showtoc: true
     tocopen: false
 
     assets:
@@ -45,10 +51,10 @@ params:
         apple_touch_icon: "<link / abs url>"
         safari_pinned_tab: "<link / abs url>"
 
-    label:
-        text: "Blog"
-        icon: /apple-touch-icon.png
-        iconHeight: 35
+        #label:
+        #text: "Blog"
+        #icon: /apple-touch-icon.png
+        #iconHeight: 35
 
     # profile-mode
     profileMode:
@@ -81,10 +87,10 @@ params:
     cover:
         hidden: true # hide everywhere but not in structured data
         hiddenInList: true # hide on list pages and home
-        hiddenInSingle: true # hide on single page
+        hiddenInSingle: false # hide on single page
 
     editPost:
-        URL: "https://github.com/4hmz4/blog/content"
+        URL: "https://github.com/4hmz4/blog/blob/main/content"
         Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link
 
@@ -108,9 +114,9 @@ menu:
           name: tags
           url: /tags/
           weight: 20
-        - identifier: example
-          name: blog.ahmza.com
-          url: https://blog.ahmza.com
+        - identifier: search
+          name: search
+          url: /search/
           weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true

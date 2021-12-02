@@ -1,8 +1,24 @@
 ---
-title: "Welcome"
+
+title: Welcome
 date: 2021-12-01T13:36:08Z
+author: "ahmza"
 draft: false
+
+tags: ["welcome", "misc"]
+canonicalURL: "https://blog.ahmza.com/Page%28/posts/Setup-an-NGINX-Reverse-Proxy.md%29"
+
+#cover:
+#image: "/img/Reverse-Proxy/feature-anim.gif" # image path/url
+#alt: "abstracted reverse proxy diagram" # alt text
+#caption: "<text>" # display caption under cover
+#relative: false # when using page bundles set this to true
+
+showtoc: false
+searchHidden: true
+
 ---
+
 
 ### Hello World
 
@@ -26,7 +42,7 @@ I feel If you are interested in something then definitely go ahead
 and try to learn it I'm sure you will learn a lot more than you
 expect. Like a lot of people say
 
-    Its about the Journey as much as it is the destination
+> ***Its about the Journey as much as it is the destination***
 
 I have always tinkered and naturally gained an interest for
 technology, I don't limit myself to one part of tech I try to dabble
